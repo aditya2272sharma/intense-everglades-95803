@@ -1,0 +1,17 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules
+*.sublime-workspace
+*.sublime-project
+*.project
+*.DS_Store
+npm-debug.log
+dist
+/*.zip
+
+*.swp
+*.swo
+
+# Ignore outputs from ng-template as they're a perpetually changing entity
+dev/app/ng-template
